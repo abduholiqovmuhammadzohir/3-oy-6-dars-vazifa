@@ -1,0 +1,118 @@
+body {
+  background: #EEF7FB;
+}
+body .container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+body .container .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 61px;
+}
+body nav ul {
+  display: flex;
+  margin-left: 350px;
+}
+body nav ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: #232D22;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 1s;
+}
+body nav ul li a:hover {
+  color: blue;
+}
+body .btn {
+  width: 130px;
+  height: 42px;
+  border-radius: 4px;
+  border: 1px solid #232D22;
+  color: #232D22;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  background-color: #EEF7FB;
+  cursor: pointer;
+  transition: all 1s;
+}
+body .btn:hover {
+  color: aqua;
+  background-color: grey;
+  border: 1px solid blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.container-hero {
+  max-width: 1500px;
+  width: 100%;
+}
+.container-hero .hero {
+  display: flex;
+  margin-left: 185px;
+}
+.container-hero .hero img {
+  margin-left: 166px;
+  margin-bottom: 50px;
+}
+.container-hero .hero h3 {
+  width: 500px;
+  color: #232D22;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+  margin-top: 37px;
+}
+.container-hero .hero p {
+  color: rgba(35, 45, 34, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.container-hero .hero button {
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #232D22;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 1s;
+}
+.container-hero .hero button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid aqua;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
